@@ -1,11 +1,11 @@
-/* selecting all the Customer of the Chinook database that are not Americans and Americans*/
+/* selecting all the Customer of the Chinook database that are not Americans and all the customers that are Americans*/
 /select count(CustomerId) as total_customers from Chinook.Customer
 where Country = "USA"
 union
 select count(CustomerId) as total_customers from Chinook.Customer 
 where not Country = "USA"
 ;
-/*Swowing all customers by country */
+/*Showing all customers by country */
 select distinct Country, count(CustomerId) as total_customers from Customer
 group by Country;
 /* Invoice numbers by year since 2021 to 2025*/
@@ -33,10 +33,6 @@ group by Year
 select distinct Country, count(I.CustomerId) as total_customer from Chinook.Invoice I join Chinook.Customer C on
 I.CustomerId = C.CustomerId
 group by Country;
-/*Number of Invoices per country*/
-select distinct Country, count(I.CustomerId) as total_customer from Chinook.Invoice I join Chinook.Customer C on
-I.CustomerId = C.CustomerId
-group by Country;
 /*Total of tacks per playlist*/
 select Name, count(p.TrackId) as Total_track from Chinook.PlaylistTrack p join 
 Chinook.Playlist t on p.PlaylistId = t.PlaylistId
@@ -51,7 +47,7 @@ group by Name;
 select distinct BillingCountry, count(InvoiceId) as total_sales from Chinook.Invoice
 group by BillingCountry
 order by BillingCountry;
-/*Getting  top 10 most purrchased track*/
+/*Getting  top 10 most purchased track*/
 select distinct T.Name, count(J.Total) as total_sales from Chinook.Track T 
 join Chinook.InvoiceLine I on T.TrackId = I.TrackId join Chinook.Invoice J on I.InvoiceId= J.InvoiceId
 group by T.Name

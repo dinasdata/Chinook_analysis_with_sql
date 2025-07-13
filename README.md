@@ -28,7 +28,7 @@ Some other countries have an average value of invoices of 7,which is really low 
 <p> Three sales agent and marketers made a high value of sales in the Chinook data store: Jane Peacock with a total sales of 146, Margaret Park and Steve Johson with 140 and 126 sales each other.</p>
 <h2>What are the total sales per country?</h2>
 <img src = "datasets/Sales per coutry.png"/>
-<p> This plot explain the sales made by each country. The distribution match exactly the value of invoices explained earlier,which we can see the USA at the top, followed by Brazil, Canada, Germany and France.</p>
+<p> This plot explain the sales made by each country. The distribution matches exactly the value of invoices explained earlier,which we can see the USA at the top, followed by Brazil, Canada, Germany and France.</p>
 <h2>What are the top 10 most purchased track</h2>
 <p><link href = "datasets/Top_10_track.csv"> 
 This link provide the top 10 most purchased track on the database. At first we get "Dazed and confused" from the artist Ruel, with a purchase of 5, equal to "the Trooper". At second place we can find "The Number of The Beast", "Hallowed Be Thy Name", "Eruption" and "Sure Know Something" with 4 purchases. 3 tracks followed them, which are "Welcome Home (Sanitarium)", "Brasil" and "Blood Brothers" with 3 purchases total.</p>

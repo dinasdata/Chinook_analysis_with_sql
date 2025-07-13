@@ -11,3 +11,5 @@ This is a simple analysis of the Chinook sample database using mysql and mysql w
 <li>What are the top 10 most purchased track?</li>
 <li>How is the distribution of Customers in the USA comparing to the other countries ?</li>
 </ul>
+<h2>How is the distribution of Customers in the USA comparing to the other countries ?</h2>
+<img src = "datasets/USA vs Other customers.png">How is the distribution of Customers in the USA comparing to the other countries/>

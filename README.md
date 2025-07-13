@@ -30,8 +30,8 @@ Some other countries have an average value of invoices of 7,which is really low 
 <img src = "datasets/Sales per coutry.png"/>
 <p> This plot explain the sales made by each country. The distribution matches exactly the value of invoices explained earlier,which we can see the USA at the top, followed by Brazil, Canada, Germany and France.</p>
 <h2>What are the top 10 most purchased track</h2>
-<p href = "datasets/Top_10_track.csv"/> 
-This link provide the top 10 most purchased track on the database. At first we get "Dazed and confused" from the artist Ruel, with a purchase of 5, equal to "the Trooper". At second place we can find "The Number of The Beast", "Hallowed Be Thy Name", "Eruption" and "Sure Know Something" with 4 purchases. 3 tracks followed them, which are "Welcome Home (Sanitarium)", "Brasil" and "Blood Brothers" with 3 purchases total.</p>
+<p href = "datasets/Top_10_track.csv"/> top 10 most purchased tracks</p>
+<p>This link provide the top 10 most purchased track on the database. At first we get "Dazed and confused" from the artist Ruel, with a purchase of 5, equal to "the Trooper". At second place we can find "The Number of The Beast", "Hallowed Be Thy Name", "Eruption" and "Sure Know Something" with 4 purchases. 3 tracks followed them, which are "Welcome Home (Sanitarium)", "Brasil" and "Blood Brothers" with 3 purchases total.</p>
 <h2> Tools and software</h2>
 <ul><li>Mysql version 8.0.42 on Ubuntu as server</li>
 <li>Mysql workbench version 8.0.36 Community </li>

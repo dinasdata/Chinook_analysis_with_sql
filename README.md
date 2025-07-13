@@ -11,12 +11,12 @@ This is a simple analysis of the Chinook sample database using mysql and mysql w
 </ul>
 <h2>How is the distribution of Customers in the USA comparing to the other countries ?</h2>
 <img src = "datasets/USA vs Other customers.png"/>
-<p> In a sample of 24 Country, USA takes the lead in term of customers. As we can see in the plots there are more than the quarter  of the sum of every customers in every countries in the USA. We can see the distribution of customers in each country in the folloging plots</p>
+<p> In a sample of 24 Country, USA takes the lead in term of customers. As we can see in the plots there are more than the quarter  of the sum of every customers in every countries in the USA. We can see the distribution of customers in each country in the following plots</p>
 <img src = "datasets/Customer per country.png"/>
 <h2>How is the distribution of invoices per year since 2021 to 2025?</h2>
 <img src = "datasets/Invoices per year.png"/>
 <p> Invoices may be considered as some references for each sale made. This plot above this present text explain the evolution of invoices in Chinook data store
-from 2021 to 2025. The plot shows an equal distribution of it with a value of 83 since 2021 to 2024, but it decreased at a value of 80 in 2025./p>
+from 2021 to 2025. The plot shows an equal distribution of it with a value of 83 since 2021 to 2024, but it decreased at a value of 80 in 2025.</p>
 <h2>How does the number of invoices per country look like ?</h2>
 <img src = "datasets/Invoices per country.png"/>
 <p> In term of invoices, USA customers still take the lead with a total of 91 invoices acquiered, followed by Canada (56) and  Brazil, France and GB. 
@@ -27,7 +27,7 @@ Some other countries have an average value of invoices of 7,which is really low 
 <h2>What is the total sale made by every sale agent?</h2>
 <p> Three sales agent and marketers made a high value of sales in the Chinook data store: Jane Peacock with a total sales of 146, Margaret Park and Steve Johson with 140 and 126 sales each other.</p>
 <h2>What are the total sales per country?</h2>
-<img src = "datasets/Sales per country.png"/>
+<img src = "datasets/Sales per coutry.png"/>
 <p> This plot explain the sales made by each country. The distribution match exactly the value of invoices explained earlier,which we can see the USA at the top, followed by Brazil, Canada, Germany and France.</p>
 <h2>What are the top 10 most purchased track</h2>
 <p><link href = "datasets/Top_10_track.csv"> 

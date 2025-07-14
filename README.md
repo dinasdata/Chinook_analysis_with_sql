@@ -1,5 +1,6 @@
 <h1> Chinook database simple analysis </h1>
 This is a simple analysis of the Chinook sample database using mysql and mysql workbench. The main questions we will answer in this microproject are :
+[link there](https://www.google.com/search?sca_esv=20a3364d895c8ae1&sxsrf=AE3TifPj2kYvmbvebq302mq8uQNp9S8L-w:1752470052741&q=seaborn+scatter+plots&udm=2&fbs=AIIjpHx4nJjfGojPVHhEACUHPiMQ_pbg5bWizQs3A_kIenjtcpTTqBUdyVgzq0c3_k8z34EAuM72an33lMW6RWde9ePJpwNFtZw3UQvFloZy04_0a1XZBeVIb0hI_n03EQLwD09B0YVfWiCdCsSCWqkKYmanus3JQ-XHUOgv2_uxlEKdbunfard8plBsMPZqqMiWG8d09QLY1LdzdrJ_hjb-vj6pP9Rkeg&sa=X&ved=2ahUKEwi1n-TXy7uOAxXnTTABHQEwCRQQtKgLKAF6BAgXEAE&biw=1366&bih=561&dpr=1)
 <ul><li>How is the distribution of Customers in the USA comparing to the other countries ?</li>
 <li>How is the distribution of Customers in every countries ?</li>
 <li>How is the distribution of invoices per year since 2021 to 2025</li>

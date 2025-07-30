@@ -1,9 +1,11 @@
 /* selecting all the Customer of the Chinook database that are not Americans and all the customers that are Americans*/
-/select count(CustomerId) as total_customers from Chinook.Customer
-where Country = "USA"
-union
-select count(CustomerId) as total_customers from Chinook.Customer 
-where not Country = "USA"
+select count(CustomerId) ,
+case 
+when Country = "USA" then "Americans"
+else "not Americans"
+end as country_type
+from Customer
+group by country_type;
 ;
 /*Showing all customers by country */
 select distinct Country, count(CustomerId) as total_customers from Customer

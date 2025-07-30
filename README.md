@@ -25,6 +25,7 @@ Some other countries have an average value of invoices of 7,which is really low 
 <img src = "datasets/track per playlist.png"/>
 <p> There are many kinds of tracks in each playlist, but the most common tracks with a high value of 6580 are musics, followed by 90's musics with a value of 1477 tracks. In front of these, tracks like classical, grunge and heavy metal music are very low in term of values.</p>
 <h2>What is the total sale made by every sale agent?</h2>
+<img src = "datasets/Sales per agent.png"/>
 <p> Three sales agent and marketers made a high value of sales in the Chinook data store: Jane Peacock with a total sales of 146, Margaret Park and Steve Johson with 140 and 126 sales each other.</p>
 <h2>What are the total sales per country?</h2>
 <img src = "datasets/Sales per coutry.png"/>
